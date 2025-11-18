@@ -5,7 +5,7 @@ require_once __DIR__ . '/../config/database.php';
 
 try {
     $conn = getDBConnection();
-    
+    //
     // Get filter kategori from query parameter
     $kategori_filter = isset($_GET['kategori']) ? intval($_GET['kategori']) : 1; // Default: Pelatihan Teknis (1)
     
